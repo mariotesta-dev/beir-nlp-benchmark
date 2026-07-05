@@ -12,6 +12,7 @@ dependencies = [
     "datasets",
     "rank-bm25",
     "numpy",
+    "ranx",
 ]
 
 [tool.setuptools.packages.find]

@@ -3,3 +3,4 @@ transformers
 datasets
 rank-bm25
 numpy
+ranx
