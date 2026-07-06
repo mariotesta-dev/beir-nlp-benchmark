@@ -66,7 +66,7 @@ class DenseEncoder:
                 emb = F.normalize(emb, p=2, dim=1)
             
             chunks.append(emb.cpu())
-        return torch.stack(chunks, dim=0)
+        return torch.cat(chunks, dim=0)
     
 
 # Factory

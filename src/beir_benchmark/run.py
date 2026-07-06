@@ -30,7 +30,7 @@ def run(dataset: str = "nfcorpus",
         scores = evaluate_run(results, ds.qrels, METRICS)
         rows.append((name, scores, t_index, t_search))
 
-    _print_table(rows, ks)
+    _print_table(rows)
 
 
 def _print_table(rows):
